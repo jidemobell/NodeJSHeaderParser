@@ -1,0 +1,17 @@
+{
+  "name": "requestheader",
+  "version": "1.0.0",
+  "description": "parsing request headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jide olaniyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "ip-address": "^5.8.8",
+    "request-ip": "^2.0.2"
+  }
+}
