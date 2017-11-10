@@ -12,7 +12,7 @@ app.get('/', (req,res)=>{
    let lang = req.headers['accept-language']
  
 
-   var ip = req.headers['x-forwarded-for'].split(',')[0] ||
+   let ip = req.headers['x-forwarded-for'].split(',')[0] ||
    req.connection.remoteAddress ||
    req.socket.remoteAddress ||
  req.connection.socket.remoteAddress;
